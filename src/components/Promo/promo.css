@@ -1,0 +1,113 @@
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.carousel-img {
+  width: 700px;
+  height: 480px;
+}
+
+.promo-container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(26, 26, 26);
+  color: white;
+}
+
+.carousel-text {
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  font-size: 20px;
+}
+
+.promo-text {
+  font-size: 20px;
+}
+
+@media (min-width: 320px) {
+  .carousel-container-one {
+    width: 400px;
+    height: 180px;
+    margin-bottom: 60vh;
+    animation: fadeIn 5s;
+    -webkit-animation: fadeIn 5s;
+    -moz-animation: fadeIn 5s;
+    -o-animation: fadeIn 5s;
+    -ms-animation: fadeIn 5s;
+  }
+}
+@media (min-width: 600px) {
+  .carousel-container-one {
+    width: 500px;
+    height: 350px;
+    margin-bottom: 40vh;
+  }
+}
+@media (min-width: 960px) {
+  .carousel-container-one {
+    width: 700px;
+    height: 480px;
+    margin-bottom: 20vh;
+  }
+}
+
+.special-offer-container {
+  width: 100%;
+  height: 50px;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(180, 92, 77);
+}
+
+.special-offer-text {
+  color: white;
+  font-family: "Gloria Hallelujah", cursive;
+}

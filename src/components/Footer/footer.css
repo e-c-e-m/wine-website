@@ -1,0 +1,25 @@
+.footer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  border-top: 2px solid rgb(37, 37, 37);
+  align-items: center;
+  height: 10vh;
+  background-color: rgb(26, 26, 26);
+  color: white;
+  padding-top: 20px;
+}
+
+.copyright {
+  font-size: 18px !important;
+}
+
+.footer-links {
+  font-size: 14px;
+}
+
+.footer-links:hover {
+  color: rgb(75, 75, 75);
+  cursor: pointer;
+}

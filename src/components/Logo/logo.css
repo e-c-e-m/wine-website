@@ -1,0 +1,25 @@
+.website-title-slogan-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  color: white;
+}
+
+.website-title {
+  font-size: 42px;
+  color: white;
+  font-family: "Gloria Hallelujah", cursive;
+  margin-bottom: 0;
+}
+
+.website-slogan {
+  font-size: 14px;
+  font-family: "Gloria Hallelujah", cursive;
+}
+
+.logo-img {
+  width: 250px;
+  height: 100px;
+}

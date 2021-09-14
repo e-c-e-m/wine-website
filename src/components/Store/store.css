@@ -1,0 +1,39 @@
+.store-layout {
+  background-color: rgb(26, 26, 26);
+  color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.shopping-cart {
+  display: flex;
+  width: 95vw;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.cart-icon {
+  font-size: 46px;
+  margin-left: 20px;
+}
+
+.item-grid {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.store-title {
+  color: white;
+  font-size: 28px;
+}
+
+.cart-item {
+  border-bottom: 1px solid black;
+  margin-bottom: 5px;
+}

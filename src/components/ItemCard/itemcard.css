@@ -1,0 +1,35 @@
+.item-card {
+  width: 400px;
+  height: 600px;
+  background-color: rgb(233, 233, 233);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 10px;
+}
+
+.item-card:hover {
+  opacity: 0.9;
+}
+
+.item-img {
+  height: 400px;
+  width: 150px;
+}
+
+.item-name {
+  font-size: 20px;
+}
+
+.item-price {
+  font-size: 18px;
+}
+
+.item-btn-layout {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+}
