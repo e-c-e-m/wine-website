@@ -11,6 +11,7 @@ const Store = () => {
   const { Option } = Select;
   const [currency, setCurrency] = useState("gbp");
 
+  // eslint-disable-next-line no-unused-vars
   const [cart, setCart] = useContext(CartContext);
 
   console.log(cart);

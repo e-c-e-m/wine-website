@@ -6,6 +6,7 @@ import { CartContext } from "../../context/CartContext";
 const ItemCard = ({ name, src, price, selectedCurrency }) => {
   const [currencySign, setCurrencySign] = useState("");
   const [convertedPrice, setConvertedPrice] = useState(price);
+  // eslint-disable-next-line no-unused-vars
   const [cart, setCart] = useContext(CartContext);
 
   useEffect(() => {
@@ -29,6 +30,7 @@ const ItemCard = ({ name, src, price, selectedCurrency }) => {
       default:
         setCurrencySign("£");
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [selectedCurrency]);
 
   const updateCart = () => {
