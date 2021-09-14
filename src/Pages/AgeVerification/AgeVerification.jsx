@@ -41,6 +41,9 @@ const AgeVerification = () => {
     <div className="age-verification-layout">
       <div className="age-verification-center">
         <Logo showImg={true} />
+        <p className="age-verification-text">
+          Please enter your date of birth:
+        </p>
         <DatePicker format={dateFormatList} onChange={onChange} />
         <Button
           type="default"
